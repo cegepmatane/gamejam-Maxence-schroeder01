@@ -189,7 +189,7 @@ PrefabInstance:
     - target: {fileID: 4581752763891907758, guid: b0abf2d86444eda48883f119aff57316, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1756421180}
+      objectReference: {fileID: 2135136910}
     - target: {fileID: 4581752763891907758, guid: b0abf2d86444eda48883f119aff57316, type: 3}
       propertyPath: animator
       value: 
@@ -1343,6 +1343,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1358,6 +1359,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ace6a9fdf3dec45a2ae188be4f61ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerT: {fileID: 1756421180}
+  laz: -10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1409,7 +1424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -0.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7566,6 +7581,10 @@ PrefabInstance:
     - target: {fileID: 5606200919835326285, guid: e081bf2c138ab05499f67d5af5eea01e, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606200921081312485, guid: e081bf2c138ab05499f67d5af5eea01e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e081bf2c138ab05499f67d5af5eea01e, type: 3}
