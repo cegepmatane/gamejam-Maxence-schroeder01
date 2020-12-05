@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (m_Isflipped == false && movement.x > 0 )
+        if (m_Isflipped == false && movement.x > 0)
         {
             Flip();
         }
@@ -40,5 +40,13 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speedmove * Time.fixedDeltaTime);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        var momie = collision.gameObject.GetComponent<mummy>();
+        if (momie)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }
