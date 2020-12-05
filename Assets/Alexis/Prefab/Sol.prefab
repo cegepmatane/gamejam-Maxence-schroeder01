@@ -96,4 +96,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TilePos: {x: 0, y: 0}
-  BaseCost: 0
+  BaseCost: 1

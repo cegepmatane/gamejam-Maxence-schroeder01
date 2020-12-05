@@ -20,12 +20,13 @@ public class Grid : MonoBehaviour
     public int SelectedTileID;
 #endif
 
-    public void SpawnTile(Tile a_Tile, Vector2Int a_Pos)
+    public Tile SpawnTile(Tile a_Tile, Vector2Int a_Pos)
     {
-        Instantiate(a_Tile, GridToWorld(a_Pos), Quaternion.identity);
+        return Instantiate(a_Tile, GridToWorld(a_Pos), Quaternion.identity);
+        
     }
 
-    private void Awake()
+    public void init()
     {
         m_Tiles = new Tile[ColumCount, RowCount];
 
