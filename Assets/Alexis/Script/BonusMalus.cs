@@ -25,7 +25,7 @@ public class BonusMalus : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Bonus"))
         {
-            DestroyImmediate(collision.gameObject);
+            Destroy(collision.gameObject);
             NbPot++;
             Light2D = Player.GetComponentInChildren<Light2D>();
             RandomBonusMalus();
