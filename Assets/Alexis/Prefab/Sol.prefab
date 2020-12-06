@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7744157031401189262}
   - component: {fileID: 3149111493008931765}
   - component: {fileID: 2871508144489129510}
-  - component: {fileID: 260548143447069359}
   m_Layer: 0
   m_Name: Sol
   m_TagString: Untagged
@@ -98,19 +97,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TilePos: {x: 0, y: 0}
   BaseCost: 1
---- !u!114 &260548143447069359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6303414057274418585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff

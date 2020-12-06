@@ -17,6 +17,7 @@ public class CreateLab : MonoBehaviour
     public Tile Mur;
     public GameObject Jar;
     private List<GameObject> JarList;
+    public GameObject Coffre;
 
     private bool[] AlwaysUse;
 
@@ -32,7 +33,7 @@ public class CreateLab : MonoBehaviour
             GenerateGrid();
             t_NewPath = PathFinder.GetPath(StartCase, EndCase, false);
             CompteurDeGeneration++;
-            if (CompteurDeGeneration >= 1)
+            if (CompteurDeGeneration >= 10)
             {
                 Debug.LogError("Generation fail");
                 return;
@@ -64,26 +65,29 @@ public class CreateLab : MonoBehaviour
                         Sprite t_Sprite = t_NewTile.GetComponent<SpriteRenderer>().sprite;
                         float t_Scale = t_CellSize / t_Sprite.bounds.size.x;
                         t_NewTile.transform.localScale = new Vector3(t_Scale, t_Scale, t_Scale);
-                        t_Tuile.BaseCost = 0;
+                        t_NewTile.BaseCost = 0;
                     } 
                     else
                         t_NewTile = MyGrid.SpawnTile(t_Tuile, new Vector2Int(i + t_TilePos.x, j + t_TilePos.y));
 
                    
                     t_NewTile.transform.parent = transform;
-                    if (t_Tuile.BaseCost == 1)
+                    if (t_NewTile.BaseCost == 1)
                     {
                         int JarChance = Random.Range(0, 100);
                         if (JarChance == 27)
                             JarList.Add(Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity));
                     }
-                    if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("StartCase"))
+                    if (t_NewTile.gameObject.layer == LayerMask.NameToLayer("StartCase"))
                     {
                         StartCase = t_NewTile;
                         Player.transform.position = StartCase.transform.position;
                     }
-                    if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("EndCase"))
+                    if (t_NewTile.gameObject.layer == LayerMask.NameToLayer("EndCase"))
+                    {
                         EndCase = t_NewTile;
+                        Instantiate(Coffre, t_NewTile.transform.position, Quaternion.identity);
+                    }
                 }
             }
         }

@@ -7,6 +7,7 @@ public class BonusMalus : MonoBehaviour
 {
     public Player Player;
     private Light2D Light2D;
+    public Animator AnimCoffre;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,13 @@ public class BonusMalus : MonoBehaviour
             Light2D = Player.GetComponentInChildren<Light2D>();
             RandomBonusMalus();
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Coffre"))
+        {
+            Debug.Log("BOUM TA LE COFFRE BG");
+            AnimCoffre.SetTrigger("IsTouched");
+            GameObject t_Coffre = collision.gameObject;
+            StartCoroutine(AnimationCoffre(t_Coffre));
         }
     }
 
@@ -38,6 +46,12 @@ public class BonusMalus : MonoBehaviour
                 StartCoroutine(UnSpeed());
                 break;
         }
+    }
+
+    private IEnumerator AnimationCoffre(GameObject Coffre)
+    {
+        yield return new WaitForSeconds(1);
+        DestroyImmediate(Coffre);
     }
 
     private IEnumerator Speed()

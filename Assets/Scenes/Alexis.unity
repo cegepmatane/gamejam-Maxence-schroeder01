@@ -177,6 +177,7 @@ MonoBehaviour:
   Player: {fileID: 5467445077494393638}
   Mur: {fileID: -4723413270031651283, guid: 2b53901f45b831749a6a3fd4721b4f2e, type: 3}
   Jar: {fileID: 7035205709005174508, guid: ea09cc069405fed408b3412adc8d8053, type: 3}
+  Coffre: {fileID: 4301565271667533558, guid: b4a65a6454d0ee444a4270d21e5c861a, type: 3}
 --- !u!114 &470234656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,8 +303,8 @@ Camera:
   m_GameObject: {fileID: 684878330}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -563,6 +564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 3325045165172626914}
+  AnimCoffre: {fileID: 239611155658754353, guid: b4a65a6454d0ee444a4270d21e5c861a, type: 3}
 --- !u!1 &5467445077494393638
 GameObject:
   m_ObjectHideFlags: 0
