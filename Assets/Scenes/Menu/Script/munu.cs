@@ -25,4 +25,8 @@ public class munu : MonoBehaviour
     {
         SceneManager.LoadScene("Options");
     }
+    public void regle()
+    {
+        SceneManager.LoadScene("Regle");
+    }
 }

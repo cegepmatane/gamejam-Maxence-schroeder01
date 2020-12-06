@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1061,7 +1061,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6425253361306534242, guid: 889edb0a741f67647bcb7e6d4a1a9178, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.04
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 6425253361306534242, guid: 889edb0a741f67647bcb7e6d4a1a9178, type: 3}
       propertyPath: m_LocalPosition.y
