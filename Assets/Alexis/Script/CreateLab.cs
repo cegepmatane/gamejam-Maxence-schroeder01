@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
+using UnityEditor;
+using UnityEditor.Experimental.TerrainAPI;
+using UnityEngine;
 
 
 public class CreateLab : MonoBehaviour
@@ -10,6 +13,9 @@ public class CreateLab : MonoBehaviour
     public Tile EndCase;
     public Tile StartCase;
     public Pathfinder PathFinder;
+    public GameObject Player;
+    public Tile Mur;
+    public GameObject Jar;
 
     private bool[] AlwaysUse;
 
@@ -25,7 +31,7 @@ public class CreateLab : MonoBehaviour
             GenerateGrid();
             t_NewPath = PathFinder.GetPath(StartCase, EndCase, false);
             CompteurDeGeneration++;
-            if (CompteurDeGeneration >= 200)
+            if (CompteurDeGeneration >= 10)
             {
                 Debug.LogError("Generation fail");
                 return;
@@ -35,11 +41,6 @@ public class CreateLab : MonoBehaviour
     }
 
     [ContextMenu("GetPath")]
-    public void GetPath()
-    {
-        PathFinder.GetPath(StartCase, EndCase, false);
-    }
-    
     private void GenerateGrid()
     {
         Grid MyGrid = GetComponent<Grid>();
@@ -51,12 +52,34 @@ public class CreateLab : MonoBehaviour
                 Grid t_RandomSection = Section[RandomRoom()];
                 foreach (var t_Tuile in t_RandomSection.GetComponentsInChildren<Tile>())
                 {
-
                     Vector2Int t_TilePos = t_RandomSection.WorldToGrid(t_Tuile.transform.position);
-                    Tile t_NewTile = MyGrid.SpawnTile(t_Tuile, new Vector2Int(i + t_TilePos.x, j + t_TilePos.y));
+                    Tile t_NewTile;
+                    if (FermetureMur(i + t_TilePos.x, j + t_TilePos.y))
+                    {
+                        t_NewTile = MyGrid.SpawnTile(Mur, new Vector2Int(i + t_TilePos.x, j + t_TilePos.y));
+
+                        float t_CellSize = MyGrid.CellSize;
+                        Sprite t_Sprite = t_NewTile.GetComponent<SpriteRenderer>().sprite;
+                        float t_Scale = t_CellSize / t_Sprite.bounds.size.x;
+                        t_NewTile.transform.localScale = new Vector3(t_Scale, t_Scale, t_Scale);
+                        t_Tuile.BaseCost = 0;
+                    } 
+                    else
+                        t_NewTile = MyGrid.SpawnTile(t_Tuile, new Vector2Int(i + t_TilePos.x, j + t_TilePos.y));
+
+                   
                     t_NewTile.transform.parent = transform;
+                    //if (t_Tuile.BaseCost == 1)
+                    //{
+                    //    int JarChance = Random.Range(0, 20);
+                    //    if (JarChance == 5)
+                    //        Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity);
+                    //}
                     if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("StartCase"))
+                    {
                         StartCase = t_NewTile;
+                        Player.transform.position = StartCase.transform.position;
+                    }
                     if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("EndCase"))
                         EndCase = t_NewTile;
                 }
@@ -71,16 +94,24 @@ public class CreateLab : MonoBehaviour
         foreach (var tuile in GetComponentsInChildren<Tile>())
         {
             DestroyImmediate(tuile.gameObject);
-
         }
         AlwaysUse = new bool[16];
     }
 
+    private bool FermetureMur(int x, int y)
+    {
+        Grid t_GridCount = GetComponent<Grid>();
 
+        if (x <= 0) return true;
+        if (y <= 0) return true;
+        if (x >= t_GridCount.ColumCount - 1) return true;
+        if (y >= t_GridCount.RowCount - 1) return true;
+
+        return false;
+    }
 
     private int RandomRoom()
     {
-
         while (true)
         {
             int RandomRoom = Random.Range(0, 16);
