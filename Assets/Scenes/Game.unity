@@ -461,6 +461,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4032666832569978827, guid: 67ab2858b7f0e1043ae67c21604f11a5, type: 3}
+      propertyPath: maxSpeed
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4032666832569978864, guid: 67ab2858b7f0e1043ae67c21604f11a5, type: 3}
       propertyPath: m_Name
       value: ennemie2

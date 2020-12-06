@@ -25,12 +25,11 @@ public class BonusMalus : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Bonus"))
         {
+            DestroyImmediate(collision.gameObject);
             NbPot++;
-            VerifVictoire();
             Light2D = Player.GetComponentInChildren<Light2D>();
             RandomBonusMalus();
-            Destroy(collision.gameObject);
-            
+            VerifVictoire();
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Coffre"))
         {
@@ -38,7 +37,7 @@ public class BonusMalus : MonoBehaviour
             Destroy(collision.gameObject);
             Coffre++;
             VerifVictoire();
-            Player.GetComponent<Message>().SetMessage("Bravo vous avez trouvé le coffre ! Vous avez trouvé " + NbPot + " pot sur 4");
+            Player.GetComponent<Message>().SetMessage("Bravo vous avez trouvé le coffre !\nVous avez trouvé " + NbPot + " pot sur 4");
         }
     }
 
@@ -49,7 +48,7 @@ public class BonusMalus : MonoBehaviour
             Vie--;
             Minautaure.transform.position = TpMino.GetComponent<CreateLab>().EndCase.transform.position;
             Player.GetComponent<AfficherVie>().SetVie(Vie);
-            if (Vie < 0)
+            if (Vie <= 0)
                 SceneManager.LoadScene("GameOver");
         }
     }
@@ -66,7 +65,7 @@ public class BonusMalus : MonoBehaviour
 
     private void RandomBonusMalus()
     {
-        int RandomNumber = Random.Range(0,4);
+        int RandomNumber = Random.Range(0,5);
 
         switch (RandomNumber)
         {
@@ -83,14 +82,22 @@ public class BonusMalus : MonoBehaviour
             case 3:
                 StartCoroutine(UnSpeed());
                 break;
+            case 4:
+                TpDebut();
+                break;
         }
+    }
+
+    private void TpDebut()
+    {
+        Player.GetComponent<Message>().SetMessage("Malus : Retour a la case depart\nVous avez trouvez " + NbPot + " pot sur 4");
+        Player.transform.position = TpMino.GetComponent<CreateLab>().StartCase.transform.position;
     }
 
     private IEnumerator Speed()
     {
         Player.speedmove = 4.5f;
-        Debug.Log("Speed");
-        Player.GetComponent<Message>().SetMessage("Bonus : Speed\nVous avez trouvez " + NbPot + " pot sur 4");
+        Player.GetComponent<Message>().SetMessage("Bonus : Vitesse augmenter\nVous avez trouvez " + NbPot + " pot sur 4");
         yield return new WaitForSeconds(7);
         Player.speedmove = 3f;
     }
@@ -98,9 +105,8 @@ public class BonusMalus : MonoBehaviour
     private IEnumerator Flash()
     {
         Light2D.pointLightOuterRadius = 50;
-        Debug.Log("Flash");
-        Player.GetComponent<Message>().SetMessage("Bonus : Flash\nVous avez trouvez " + NbPot + " pot sur 4");
-        yield return new WaitForSeconds(2.5f);
+        Player.GetComponent<Message>().SetMessage("Bonus : Vision nocturne\nVous avez trouvez " + NbPot + " pot sur 4");
+        yield return new WaitForSeconds(3f);
         Light2D.pointLightOuterRadius = 5.5f;
     }
 
@@ -108,8 +114,7 @@ public class BonusMalus : MonoBehaviour
     {
         Light2D.pointLightInnerRadius = 0;
         Light2D.pointLightOuterRadius = 2;
-        Debug.Log("Unflash");
-        Player.GetComponent<Message>().SetMessage("Bonus : UnFlash\nVous avez trouvez " + NbPot + " pot sur 4");
+        Player.GetComponent<Message>().SetMessage("Malus : Panne de torche\nVous avez trouvez " + NbPot + " pot sur 4");
         yield return new WaitForSeconds(10);
         Light2D.pointLightOuterRadius = 5.5f;
         Light2D.pointLightInnerRadius = 2.5f;
@@ -118,8 +123,7 @@ public class BonusMalus : MonoBehaviour
     private IEnumerator UnSpeed()
     {
         Player.speedmove = 1;
-        Debug.Log("UnSpeed");
-        Player.GetComponent<Message>().SetMessage("Bonus : UnSpeed\nVous avez trouvez " + NbPot + " pot sur 4");
+        Player.GetComponent<Message>().SetMessage("Malus : Ralentissement\nVous avez trouvez " + NbPot + " pot sur 4");
         yield return new WaitForSeconds(10);
         Player.speedmove = 3f;
     }
