@@ -5,9 +5,12 @@ using UnityEngine;
 public class MinotaurAI : MonoBehaviour
 {
     public Animator anim;
+    AudioSource audiol;
+    public AudioClip impact;
+    private float compt = 0;
     void Start()
     {
-        
+        audiol = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -15,11 +18,18 @@ public class MinotaurAI : MonoBehaviour
     {
         if (anim.GetBool("attack") == true)
         {
-            SoundManager.PlaySound("sonminautor");
+            if (audiol.isPlaying == false)
+            {
+                if (compt == 0)
+                {
+                    audiol.PlayOneShot(impact);
+                    compt = 1;
+                }
+            }
         }
         if (anim.GetBool("attack") == false)
         {
-            SoundManager.stopPlaysound();
+            audiol.Stop();
         }
     }
 }
