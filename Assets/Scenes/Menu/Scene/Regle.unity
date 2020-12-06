@@ -784,8 +784,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "But : Trouver 4 Pots magique ( attention \xE0 leurs effets ) et le coffre
-    garder par le minotaure.\n\nToute la partie vous allez \xEAtre poursuivie par
+  m_text: "But : Trouver 4 Pots magiques ( attention \xE0 leurs effets ) et le coffre
+    gard\xE9 par le minotaure.\n\nToute la partie vous allez \xEAtre poursuivie par
     le minotaure, vous pouvez en dernier recours vous battre avec lui, il dispara\xEEtera
     et respawnera dans la salle du tr\xE9sor mais vous perdrez l'un de vos pr\xE9cieux
     points de vie !"
