@@ -16,6 +16,7 @@ public class CreateLab : MonoBehaviour
     public GameObject Player;
     public Tile Mur;
     public GameObject Jar;
+    private List<GameObject> JarList;
 
     private bool[] AlwaysUse;
 
@@ -31,7 +32,7 @@ public class CreateLab : MonoBehaviour
             GenerateGrid();
             t_NewPath = PathFinder.GetPath(StartCase, EndCase, false);
             CompteurDeGeneration++;
-            if (CompteurDeGeneration >= 10)
+            if (CompteurDeGeneration >= 1)
             {
                 Debug.LogError("Generation fail");
                 return;
@@ -44,6 +45,7 @@ public class CreateLab : MonoBehaviour
     private void GenerateGrid()
     {
         Grid MyGrid = GetComponent<Grid>();
+        JarList = new List<GameObject>();
 
         for (int i = 0; i < 40; i += 10)
         {
@@ -71,9 +73,9 @@ public class CreateLab : MonoBehaviour
                     t_NewTile.transform.parent = transform;
                     if (t_Tuile.BaseCost == 1)
                     {
-                        int JarChance = Random.Range(0, 150);
+                        int JarChance = Random.Range(0, 100);
                         if (JarChance == 27)
-                            Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity);
+                            JarList.Add(Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity));
                     }
                     if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("StartCase"))
                     {
@@ -94,7 +96,16 @@ public class CreateLab : MonoBehaviour
         foreach (var tuile in GetComponentsInChildren<Tile>())
         {
             DestroyImmediate(tuile.gameObject);
+            
         }
+        if (JarList != null)
+        {
+            foreach (var jar in JarList)
+            {
+                DestroyImmediate(jar.gameObject);
+            }
+        }
+        
         AlwaysUse = new bool[16];
     }
 

@@ -1,20 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
+using UnityEngine;
 
 [RequireComponent(typeof(Grid))]
 public class Pathfinder : MonoBehaviour
 {
     public class Node
     {
-        public int f, g, h;
         public Tile Tile;
+        public int f, g, h;
         public Node Parent;
     }
 
     private Grid m_Grid;
     private Node[,] m_Nodes;
+
 
     private void Awake()
     {
@@ -43,12 +45,12 @@ public class Pathfinder : MonoBehaviour
 
     private void ResetNodes()
     {
-        foreach (var t_Nodes in m_Nodes)
+        foreach (var t_Node in m_Nodes)
         {
-            t_Nodes.f = 0;
-            t_Nodes.g = 0;
-            t_Nodes.h = 0;
-            t_Nodes.Parent = null;
+            t_Node.f = 0;
+            t_Node.g = 0;
+            t_Node.h = 0;
+            t_Node.Parent = null;
         }
     }
 
@@ -58,8 +60,9 @@ public class Pathfinder : MonoBehaviour
             throw new GridException("GetPath StartTile is null");
         if (a_EndTile == null)
             throw new GridException("GetPath EndTile is null");
-        if (a_EndTile == a_StartTile)
-            throw new GridException("GetPath StartTile same as Endtile");
+        if (a_StartTile == a_EndTile)
+            throw new GridException("GetPath StartTile is the same as EndTile");
+
 
         ResetNodes();
 
@@ -95,7 +98,7 @@ public class Pathfinder : MonoBehaviour
                 if (t_Neighbour.Tile.TilePos.x != t_Current.Tile.TilePos.x && t_Neighbour.Tile.TilePos.y != t_Current.Tile.TilePos.y)
                 {
                     if (!a_DiagonalAllowed)
-                        continue; // Skip le déplacement diagonal
+                        continue; // Skip diagonal
 
                     t_NeighbourMultiplier = 14;
                 }
@@ -105,7 +108,6 @@ public class Pathfinder : MonoBehaviour
                 if (t_NewNeighbourG < t_Neighbour.g || !t_OpenList.Contains(t_Neighbour))
                 {
                     // Le nouveau chemin est effectivement plus court
-
                     t_Neighbour.g = t_NewNeighbourG;
                     t_Neighbour.h = Heuristic(t_Neighbour, t_EndNode);
                     t_Neighbour.f = t_Neighbour.g + t_Neighbour.h;
@@ -113,7 +115,6 @@ public class Pathfinder : MonoBehaviour
 
                     if (!t_OpenList.Contains(t_Neighbour))
                         t_OpenList.Add(t_Neighbour);
-
                 }
             }
         }
@@ -140,8 +141,8 @@ public class Pathfinder : MonoBehaviour
 
     private int Heuristic(Node a_Node, Node a_EndNode)
     {
-        int dX = Mathf.Abs(a_Node.Tile.TilePos.x - a_EndNode.Tile.TilePos.x);
-        int dY = Mathf.Abs(a_Node.Tile.TilePos.y - a_EndNode.Tile.TilePos.y);
+        int dX = Math.Abs(a_Node.Tile.TilePos.x - a_EndNode.Tile.TilePos.x);
+        int dY = Math.Abs(a_Node.Tile.TilePos.y - a_EndNode.Tile.TilePos.y);
 
         return dX + dY;
     }
@@ -154,8 +155,7 @@ public class Pathfinder : MonoBehaviour
         {
             for (int j = -1; j <= 1; j++)
             {
-                if (i == 0 && j == 0)
-                    continue;
+                if (i == 0 && j == 0) continue;
 
                 int x = a_Node.Tile.TilePos.x + i;
                 int y = a_Node.Tile.TilePos.y + j;
@@ -169,6 +169,7 @@ public class Pathfinder : MonoBehaviour
                 t_Neighbours.Add(m_Nodes[x, y]);
             }
         }
+
         return t_Neighbours;
     }
 }
