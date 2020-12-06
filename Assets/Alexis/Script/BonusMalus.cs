@@ -9,6 +9,14 @@ public class BonusMalus : MonoBehaviour
     public Player Player;
     private Light2D Light2D;
     public Animator AnimCoffre;
+    public GameObject Minautaure;
+    public GameObject TpMino;
+    public int Vie = 3;
+
+    private void Start()
+    {
+        Player.GetComponent<AfficherVie>().SetVie(Vie);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,6 +31,18 @@ public class BonusMalus : MonoBehaviour
             AnimCoffre.SetTrigger("IsTouched");
             Destroy(collision.gameObject);
             SceneManager.LoadScene("Victoire");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Mino"))
+        {
+            Vie--;
+            Minautaure.transform.position = TpMino.GetComponent<CreateLab>().EndCase.transform.position;
+            Player.GetComponent<AfficherVie>().SetVie(Vie);
+            if (Vie < 0)
+                SceneManager.LoadScene("GameOver");
         }
     }
 

@@ -18,12 +18,14 @@ public class CreateLab : MonoBehaviour
     public GameObject Jar;
     private List<GameObject> JarList;
     public GameObject Coffre;
-
+    public GameObject Minautaure;
+    
     private bool[] AlwaysUse;
 
 
     private void Start()
     {
+        
         PathFinder = gameObject.GetComponent<Pathfinder>();
         Path t_NewPath;
         int CompteurDeGeneration = 0;
@@ -39,6 +41,7 @@ public class CreateLab : MonoBehaviour
                 return;
             }
         } while (t_NewPath == null);
+        
         Debug.Log("Nombre de génération : " + CompteurDeGeneration);
     }
 
@@ -87,6 +90,7 @@ public class CreateLab : MonoBehaviour
                     {
                         EndCase = t_NewTile;
                         Instantiate(Coffre, t_NewTile.transform.position, Quaternion.identity);
+                        Minautaure.transform.position = EndCase.transform.position;
                     }
                 }
             }

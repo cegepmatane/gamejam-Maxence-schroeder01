@@ -27,6 +27,8 @@ namespace Pathfinding {
 		public Transform[] hotspots;
 		private int randomSpot;
 
+
+		private float second = 10f, secondavant;
 		void OnEnable () {
 			ai = GetComponent<IAstarAI>();
 			if (ai != null) ai.onSearchPath += Update;
@@ -35,8 +37,14 @@ namespace Pathfinding {
         {
 			waiter = WaitingTime;
 			randomSpot = Random.Range(0, hotspots.Length);
+			secondavant = Time.time - 9;
 		}
         void Update () {
+			if (second + secondavant < Time.time)
+			{
+				secondavant = Time.time * 100;
+				AstarPath.active.Scan();
+			}
 			float distToPlayer = Vector2.Distance(transform.position, target.position);
             if (distToPlayer < agroRange){
 				if (target != null && ai != null) ai.destination = target.position;
@@ -62,6 +70,8 @@ namespace Pathfinding {
 				anim.SetBool("move", true);
 				anim.SetFloat("velx", (hotspots[randomSpot].position.x - ai.position.x));
 				anim.SetFloat("vely", (hotspots[randomSpot].position.y - ai.position.y));
+
+				
 			}
 		}
 	}
