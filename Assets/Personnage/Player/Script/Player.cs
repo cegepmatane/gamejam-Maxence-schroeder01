@@ -43,10 +43,5 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var momie = collision.gameObject.GetComponent<mummy>();
-        if (momie)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
     }
 }
