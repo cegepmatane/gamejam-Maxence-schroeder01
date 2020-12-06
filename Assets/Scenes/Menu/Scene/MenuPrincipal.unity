@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1091336137}
         m_TargetAssemblyTypeName: munu, Assembly-CSharp
-        m_MethodName: credit
+        m_MethodName: regle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
