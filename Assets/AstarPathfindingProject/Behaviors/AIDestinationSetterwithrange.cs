@@ -41,10 +41,12 @@ namespace Pathfinding {
             if (distToPlayer < agroRange){
 				if (target != null && ai != null) ai.destination = target.position;
 				anim.SetBool("move", true);
+				anim.SetBool("attack", true);
 				anim.SetFloat("velx", (target.position.x - transform.position.x));
 				anim.SetFloat("vely", (target.position.y - transform.position.y));
 			} 
 			else{
+				anim.SetBool("attack", false);
 				ai.destination = hotspots[randomSpot].position;
 				if (Vector2.Distance(transform.position, hotspots[randomSpot].position) < 0.2f){
                     if (waiter <= 0)

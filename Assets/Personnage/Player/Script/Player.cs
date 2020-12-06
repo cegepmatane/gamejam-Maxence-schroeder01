@@ -10,9 +10,15 @@ public class Player : MonoBehaviour
     public float speedmove = 3;
     public Rigidbody2D rb;
     public Animator animator;
+    private bool IsMoving = false;
     private bool m_Isflipped = true;
     Vector2 movement;
+    AudioSource audiol;
 
+    private void Start()
+    {
+        audiol = GetComponent<AudioSource>();
+    }
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -25,10 +31,27 @@ public class Player : MonoBehaviour
         {
             Flip();
         }
-
+        if (movement.x + movement.y != 0)
+        {
+            IsMoving = true;
+        }
+        else
+        {
+            IsMoving = false;
+        }
+        if (IsMoving)
+        {
+            if (audiol.isPlaying == false)
+            {
+                audiol.Play();
+            }
+        }
+        else
+        {
+            audiol.Stop();
+        }
         animator.SetFloat("Horizontal", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
     }
     private void Flip()
     {
@@ -41,9 +64,4 @@ public class Player : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * speedmove * Time.fixedDeltaTime);
     }
-    /*
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-    }
-    */
 }
