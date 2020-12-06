@@ -66,7 +66,7 @@ public class BonusMalus : MonoBehaviour
 
     private void RandomBonusMalus()
     {
-        int RandomNumber = Random.Range(0,3);
+        int RandomNumber = Random.Range(0,4);
 
         switch (RandomNumber)
         {
