@@ -18,6 +18,19 @@ public class SoundManager : MonoBehaviour
     {
         switch (clip)
         {
+            case "bruitdepas":
+                audioSRC.PlayOneShot(playerSound);
+                break;
+            case "sonminautor":
+                audioSRC.PlayOneShot(betesound);
+                break;
+            case "sonsambiant":
+                audioSRC.PlayOneShot(ambiance);
+                break;
         }
+    }
+    public static void stopPlaysound()
+    {
+        audioSRC.Stop();
     }
 }

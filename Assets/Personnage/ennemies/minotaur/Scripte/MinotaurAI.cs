@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class minotaur : MonoBehaviour
+public class MinotaurAI : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Animator anim;
     void Start()
     {
         
@@ -13,6 +13,13 @@ public class minotaur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (anim.GetBool("attack") == true)
+        {
+            SoundManager.PlaySound("sonminautor");
+        }
+        if (anim.GetBool("attack") == false)
+        {
+            SoundManager.stopPlaysound();
+        }
     }
 }
