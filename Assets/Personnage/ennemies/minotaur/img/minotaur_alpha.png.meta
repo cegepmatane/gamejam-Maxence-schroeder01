@@ -1,0 +1,2110 @@
+fileFormatVersion: 2
+guid: 6adb20051ec32d74795bdc3325637f04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2052984311568201622
+    second: minotaur_alpha_0
+  - first:
+      213: -3097269923142902332
+    second: minotaur_alpha_1
+  - first:
+      213: -8115487853995591038
+    second: minotaur_alpha_2
+  - first:
+      213: 3410434260602850787
+    second: minotaur_alpha_3
+  - first:
+      213: 4351873496190576162
+    second: minotaur_alpha_4
+  - first:
+      213: -7269027438315588186
+    second: minotaur_alpha_5
+  - first:
+      213: -4762475276942926560
+    second: minotaur_alpha_6
+  - first:
+      213: 3621515195743619827
+    second: minotaur_alpha_7
+  - first:
+      213: 1799457595957811884
+    second: minotaur_alpha_8
+  - first:
+      213: -7156641318211170558
+    second: minotaur_alpha_9
+  - first:
+      213: 2693290021702126474
+    second: minotaur_alpha_10
+  - first:
+      213: 3831520039145659014
+    second: minotaur_alpha_11
+  - first:
+      213: 7444691805329226676
+    second: minotaur_alpha_12
+  - first:
+      213: -3731221080583168944
+    second: minotaur_alpha_13
+  - first:
+      213: -3390704322272339495
+    second: minotaur_alpha_14
+  - first:
+      213: -5767150744783482866
+    second: minotaur_alpha_15
+  - first:
+      213: 1534468774728829636
+    second: minotaur_alpha_16
+  - first:
+      213: -7538913234245260006
+    second: minotaur_alpha_17
+  - first:
+      213: 2249818602493494333
+    second: minotaur_alpha_18
+  - first:
+      213: -3738712477576949971
+    second: minotaur_alpha_19
+  - first:
+      213: 2415357359791223607
+    second: minotaur_alpha_20
+  - first:
+      213: -5458478966685717346
+    second: minotaur_alpha_21
+  - first:
+      213: -2278490513609328733
+    second: minotaur_alpha_22
+  - first:
+      213: -3899969106053343111
+    second: minotaur_alpha_23
+  - first:
+      213: -3888395336012211245
+    second: minotaur_alpha_24
+  - first:
+      213: 2747569496605865836
+    second: minotaur_alpha_25
+  - first:
+      213: -2674886405460392186
+    second: minotaur_alpha_26
+  - first:
+      213: -5376472168689938356
+    second: minotaur_alpha_27
+  - first:
+      213: 8940856362457340215
+    second: minotaur_alpha_28
+  - first:
+      213: 8570201505199202990
+    second: minotaur_alpha_29
+  - first:
+      213: 754581880030861449
+    second: minotaur_alpha_30
+  - first:
+      213: -1212486479059209448
+    second: minotaur_alpha_31
+  - first:
+      213: -6400848142881364595
+    second: minotaur_alpha_32
+  - first:
+      213: -7196384919084301738
+    second: minotaur_alpha_33
+  - first:
+      213: -8191478216861155705
+    second: minotaur_alpha_34
+  - first:
+      213: -7435265888397504370
+    second: minotaur_alpha_35
+  - first:
+      213: -6943832416355816117
+    second: minotaur_alpha_36
+  - first:
+      213: -6708050971456712223
+    second: minotaur_alpha_37
+  - first:
+      213: -6649261586788626471
+    second: minotaur_alpha_38
+  - first:
+      213: -8590385069944990084
+    second: minotaur_alpha_39
+  - first:
+      213: -1539397123116273182
+    second: minotaur_alpha_40
+  - first:
+      213: 4727621613933391797
+    second: minotaur_alpha_41
+  - first:
+      213: -4249589111043390972
+    second: minotaur_alpha_42
+  - first:
+      213: 1882591752531892638
+    second: minotaur_alpha_43
+  - first:
+      213: 7555334064060785342
+    second: minotaur_alpha_44
+  - first:
+      213: -5600115061615794930
+    second: minotaur_alpha_45
+  - first:
+      213: -410876810748862952
+    second: minotaur_alpha_46
+  - first:
+      213: 7833931837646038847
+    second: minotaur_alpha_47
+  - first:
+      213: -2649159221554254869
+    second: minotaur_alpha_48
+  - first:
+      213: -7333483432380912401
+    second: minotaur_alpha_49
+  - first:
+      213: 8650162178282871860
+    second: minotaur_alpha_50
+  - first:
+      213: 927252709007923236
+    second: minotaur_alpha_51
+  - first:
+      213: -33213936076370255
+    second: minotaur_alpha_52
+  - first:
+      213: 5396787486264576161
+    second: minotaur_alpha_53
+  - first:
+      213: -1226493181686219416
+    second: minotaur_alpha_54
+  - first:
+      213: 3078814191462136141
+    second: minotaur_alpha_55
+  - first:
+      213: -2758430671397862832
+    second: minotaur_alpha_56
+  - first:
+      213: -7638129350217476919
+    second: minotaur_alpha_57
+  - first:
+      213: -671172332601972694
+    second: minotaur_alpha_58
+  - first:
+      213: -6909226301941025941
+    second: minotaur_alpha_59
+  - first:
+      213: -7615833658878280381
+    second: minotaur_alpha_60
+  - first:
+      213: -9156853863983339191
+    second: minotaur_alpha_61
+  - first:
+      213: -5190645687260577671
+    second: minotaur_alpha_62
+  - first:
+      213: -66040685325329063
+    second: minotaur_alpha_63
+  - first:
+      213: -4526016390277888209
+    second: minotaur_alpha_64
+  - first:
+      213: -6566468542687911930
+    second: minotaur_alpha_65
+  - first:
+      213: 8836492889746064301
+    second: minotaur_alpha_66
+  - first:
+      213: 3412082934994830849
+    second: minotaur_alpha_67
+  - first:
+      213: -249379419498308294
+    second: minotaur_alpha_68
+  - first:
+      213: -6844729717465373224
+    second: minotaur_alpha_69
+  - first:
+      213: 2112686166129032697
+    second: minotaur_alpha_70
+  - first:
+      213: -3057635595240711146
+    second: minotaur_alpha_71
+  - first:
+      213: 4914782911336888598
+    second: minotaur_alpha_72
+  - first:
+      213: -3097708307764690567
+    second: minotaur_alpha_73
+  - first:
+      213: -7583511097971768811
+    second: minotaur_alpha_74
+  - first:
+      213: 3004944263033266695
+    second: minotaur_alpha_75
+  - first:
+      213: 2670851537010412329
+    second: minotaur_alpha_76
+  - first:
+      213: 7271880125980302861
+    second: minotaur_alpha_77
+  - first:
+      213: 9003504961572531151
+    second: minotaur_alpha_78
+  - first:
+      213: -2057927117942192501
+    second: minotaur_alpha_79
+  - first:
+      213: 4330735735346701839
+    second: minotaur_alpha_80
+  - first:
+      213: 2505677860127627127
+    second: minotaur_alpha_81
+  - first:
+      213: 1388003040736130108
+    second: minotaur_alpha_82
+  - first:
+      213: -9180256017694008480
+    second: minotaur_alpha_83
+  - first:
+      213: -2285558890742388142
+    second: minotaur_alpha_84
+  - first:
+      213: -4125019506924280007
+    second: minotaur_alpha_85
+  - first:
+      213: 6540455821104708577
+    second: minotaur_alpha_86
+  - first:
+      213: -7955210454194387493
+    second: minotaur_alpha_87
+  - first:
+      213: 4551587630934890362
+    second: minotaur_alpha_88
+  - first:
+      213: 4401009131040935480
+    second: minotaur_alpha_89
+  - first:
+      213: -8446567819224602925
+    second: minotaur_alpha_90
+  - first:
+      213: -2454348311425376198
+    second: minotaur_alpha_91
+  - first:
+      213: 2664274863975114661
+    second: minotaur_alpha_92
+  - first:
+      213: 6944136311461421357
+    second: minotaur_alpha_93
+  - first:
+      213: -6013897454639189176
+    second: minotaur_alpha_94
+  - first:
+      213: -4048422626100003340
+    second: minotaur_alpha_95
+  - first:
+      213: -469387636375712898
+    second: minotaur_alpha_96
+  - first:
+      213: 4364058138646064569
+    second: minotaur_alpha_97
+  - first:
+      213: -1817625347426662181
+    second: minotaur_alpha_98
+  - first:
+      213: -4968193392288962999
+    second: minotaur_alpha_99
+  - first:
+      213: 8436749976328905011
+    second: minotaur_alpha_100
+  - first:
+      213: -367291671244237232
+    second: minotaur_alpha_101
+  - first:
+      213: 2401533994390464289
+    second: minotaur_alpha_102
+  - first:
+      213: 5102045732728943965
+    second: minotaur_alpha_103
+  - first:
+      213: 6683350431026769476
+    second: minotaur_alpha_104
+  - first:
+      213: 6912783516085050513
+    second: minotaur_alpha_105
+  - first:
+      213: -6472636793431882352
+    second: minotaur_alpha_106
+  - first:
+      213: -4735151608883343280
+    second: minotaur_alpha_107
+  - first:
+      213: 2554997543041088575
+    second: minotaur_alpha_108
+  - first:
+      213: 5094816437632779304
+    second: minotaur_alpha_109
+  - first:
+      213: 6360554820122826149
+    second: minotaur_alpha_110
+  - first:
+      213: 7048621996214565945
+    second: minotaur_alpha_111
+  - first:
+      213: 4023859246076499753
+    second: minotaur_alpha_112
+  - first:
+      213: 3112646909178493214
+    second: minotaur_alpha_113
+  - first:
+      213: -4752717786804687058
+    second: minotaur_alpha_114
+  - first:
+      213: -1316425173570314978
+    second: minotaur_alpha_115
+  - first:
+      213: 2978285789949423122
+    second: minotaur_alpha_116
+  - first:
+      213: 3450896543965109754
+    second: minotaur_alpha_117
+  - first:
+      213: 1221377556273115991
+    second: minotaur_alpha_118
+  - first:
+      213: -6441474436912810294
+    second: minotaur_alpha_119
+  - first:
+      213: -5571243754445171243
+    second: minotaur_alpha_120
+  - first:
+      213: 8723804312255606794
+    second: minotaur_alpha_121
+  - first:
+      213: 8260535071610704254
+    second: minotaur_alpha_122
+  - first:
+      213: -6720444986214044783
+    second: minotaur_alpha_123
+  - first:
+      213: 906287154886984900
+    second: minotaur_alpha_124
+  - first:
+      213: -2339022371668596066
+    second: minotaur_alpha_125
+  - first:
+      213: -1355093884850402558
+    second: minotaur_alpha_126
+  - first:
+      213: -3922893059725259682
+    second: minotaur_alpha_127
+  - first:
+      213: 7685336430424022318
+    second: minotaur_alpha_128
+  - first:
+      213: 4343018602581789415
+    second: minotaur_alpha_129
+  - first:
+      213: 4278634107898098239
+    second: minotaur_alpha_130
+  - first:
+      213: 6454229920165678723
+    second: minotaur_alpha_131
+  - first:
+      213: 1582461846882993735
+    second: minotaur_alpha_132
+  - first:
+      213: 8639034472032933473
+    second: minotaur_alpha_133
+  - first:
+      213: -1845854878328742730
+    second: minotaur_alpha_134
+  - first:
+      213: -7208125191358989653
+    second: minotaur_alpha_135
+  - first:
+      213: -5334087672812801419
+    second: minotaur_alpha_136
+  - first:
+      213: -436178715918700533
+    second: minotaur_alpha_137
+  - first:
+      213: -265983324480896
+    second: minotaur_alpha_138
+  - first:
+      213: 2122692542640588201
+    second: minotaur_alpha_139
+  - first:
+      213: 5483845208460244912
+    second: minotaur_alpha_140
+  - first:
+      213: -5811374396023287564
+    second: minotaur_alpha_141
+  - first:
+      213: 3801383595272851314
+    second: minotaur_alpha_142
+  - first:
+      213: 745718159346487172
+    second: minotaur_alpha_143
+  - first:
+      213: 4695907076666100455
+    second: minotaur_alpha_144
+  - first:
+      213: 6946885642465135112
+    second: minotaur_alpha_145
+  - first:
+      213: -876095135289694482
+    second: minotaur_alpha_146
+  - first:
+      213: 360768103693883356
+    second: minotaur_alpha_147
+  - first:
+      213: 1974168449593068032
+    second: minotaur_alpha_148
+  - first:
+      213: 6161378471336504071
+    second: minotaur_alpha_149
+  - first:
+      213: 362676442372463773
+    second: minotaur_alpha_150
+  - first:
+      213: -6949360550634748275
+    second: minotaur_alpha_151
+  - first:
+      213: -3802655090396880558
+    second: minotaur_alpha_152
+  - first:
+      213: -8364112566542158665
+    second: minotaur_alpha_153
+  - first:
+      213: 1483347173096629935
+    second: minotaur_alpha_154
+  - first:
+      213: 9065937766751723558
+    second: minotaur_alpha_155
+  - first:
+      213: 5243748542455791756
+    second: minotaur_alpha_156
+  - first:
+      213: -1812793156805510247
+    second: minotaur_alpha_157
+  - first:
+      213: -9016414119641301829
+    second: minotaur_alpha_158
+  - first:
+      213: 7921599409514967963
+    second: minotaur_alpha_159
+  - first:
+      213: -5808608711675621057
+    second: minotaur_alpha_160
+  - first:
+      213: 3511638517246136510
+    second: minotaur_alpha_161
+  - first:
+      213: 1582082168202664054
+    second: minotaur_alpha_162
+  - first:
+      213: -3860634616650751901
+    second: minotaur_alpha_163
+  - first:
+      213: 8952193586868797198
+    second: minotaur_alpha_164
+  - first:
+      213: -2445156472000899660
+    second: minotaur_alpha_165
+  - first:
+      213: -369256121843149239
+    second: minotaur_alpha_166
+  - first:
+      213: -7711217245471474533
+    second: minotaur_alpha_167
+  - first:
+      213: -3442458066022751130
+    second: minotaur_alpha_168
+  - first:
+      213: -2982383093640595834
+    second: minotaur_alpha_169
+  - first:
+      213: -8160550112989957380
+    second: minotaur_alpha_170
+  - first:
+      213: -2839705844798020613
+    second: minotaur_alpha_171
+  - first:
+      213: -324858570873526912
+    second: minotaur_alpha_172
+  - first:
+      213: 4390844702934718751
+    second: minotaur_alpha_173
+  - first:
+      213: -5400029907723430240
+    second: minotaur_alpha_174
+  - first:
+      213: -6701661037778083157
+    second: minotaur_alpha_175
+  - first:
+      213: -8577752435895732716
+    second: minotaur_alpha_176
+  - first:
+      213: -7003271419525824843
+    second: minotaur_alpha_177
+  - first:
+      213: -3119121612340828796
+    second: minotaur_alpha_178
+  - first:
+      213: -6367880952271549171
+    second: minotaur_alpha_179
+  - first:
+      213: 912109850980036624
+    second: minotaur_alpha_180
+  - first:
+      213: 5988724297123907797
+    second: minotaur_alpha_181
+  - first:
+      213: -5872569846983911534
+    second: minotaur_alpha_182
+  - first:
+      213: -2133377091924043414
+    second: minotaur_alpha_183
+  - first:
+      213: 1938546974414411987
+    second: minotaur_alpha_184
+  - first:
+      213: -2591570250536380016
+    second: minotaur_alpha_185
+  - first:
+      213: -1811042276160724492
+    second: minotaur_alpha_186
+  - first:
+      213: 2647649899040033276
+    second: minotaur_alpha_187
+  - first:
+      213: 8212523553328142711
+    second: minotaur_alpha_188
+  - first:
+      213: 1684898935545572547
+    second: minotaur_alpha_189
+  - first:
+      213: -8223804983905806646
+    second: minotaur_alpha_190
+  - first:
+      213: -1422368219184680617
+    second: minotaur_alpha_191
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minotaur_alpha_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22660e733e5f46c30800000000000000
+      internalID: 4351873496190576162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b1acce0a3f1b90800000000000000
+      internalID: -7269027438315588186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d9c32e7f948edb0800000000000000
+      internalID: -4762475276942926560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa4af602e4324230800000000000000
+      internalID: 3621515195743619827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa917b4625f8f810800000000000000
+      internalID: 1799457595957811884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fc32b73a08eac90800000000000000
+      internalID: -7156641318211170558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bc8ac410d706520800000000000000
+      internalID: 2693290021702126474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a5113ec2b4c2530800000000000000
+      internalID: 3831520039145659014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7399f00bd7d441c70800000000000000
+      internalID: 8940856362457340215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2aae2bcd87fe670800000000000000
+      internalID: 8570201505199202990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9889f21d830d87a00800000000000000
+      internalID: 754581880030861449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81336b8a8f16c2fe0800000000000000
+      internalID: -1212486479059209448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856656f68e9b27a0800000000000000
+      internalID: -6400848142881364595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_33
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652800f4b0e412c90800000000000000
+      internalID: -7196384919084301738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_34
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ef3aa46f5025e80800000000000000
+      internalID: -8191478216861155705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_35
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80dc777111a0d890800000000000000
+      internalID: -7435265888397504370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be4392e9100a8ff0800000000000000
+      internalID: -33213936076370255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8c21710ad35ea40800000000000000
+      internalID: 5396787486264576161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d772213fe9afee0800000000000000
+      internalID: -1226493181686219416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d493883e1352aba20800000000000000
+      internalID: 3078814191462136141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c9cd4be518b9d0800000000000000
+      internalID: -2758430671397862832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c45dc313d9eff590800000000000000
+      internalID: -7638129350217476919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28603cc1548fa6f0800000000000000
+      internalID: -671172332601972694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63f408f84f7d10a0800000000000000
+      internalID: -6909226301941025941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bcf477255c01520800000000000000
+      internalID: 2670851537010412329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_77
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e574e4278eae460800000000000000
+      internalID: 7271880125980302861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb6ff75f00e2fc70800000000000000
+      internalID: 9003504961572531151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_79
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8689698036c073e0800000000000000
+      internalID: -2057927117942192501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_80
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f062e61c43dd91c30800000000000000
+      internalID: 4330735735346701839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_81
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d776fcb4f5c220800000000000000
+      internalID: 2505677860127627127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_82
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c343d3e596d234310800000000000000
+      internalID: 1388003040736130108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_83
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd43e7acd299080800000000000000
+      internalID: -9180256017694008480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331aed5576b551570800000000000000
+      internalID: 8436749976328905011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561786cb2e17eaf0800000000000000
+      internalID: -367291671244237232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272baba176f35120800000000000000
+      internalID: 2401533994390464289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_103
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d553b17ef8b1ec640800000000000000
+      internalID: 5102045732728943965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_104
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eedce9ec700cc50800000000000000
+      internalID: 6683350431026769476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_105
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cdc6d7bf32fef50800000000000000
+      internalID: 6912783516085050513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_106
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0958e5f31239c26a0800000000000000
+      internalID: -6472636793431882352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05093ea13bc594eb0800000000000000
+      internalID: -4735151608883343280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c98b9d57c39c00800000000000000
+      internalID: 906287154886984900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a600fab8f1a8fd0800000000000000
+      internalID: -2339022371668596066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_126
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b00349a4db13de0800000000000000
+      internalID: -1355093884850402558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c0b3beb851f89c0800000000000000
+      internalID: -3922893059725259682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ddacac3ccc7aa60800000000000000
+      internalID: 7685336430424022318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea0dc3a860854c30800000000000000
+      internalID: 4343018602581789415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32f22d4d03c06b30800000000000000
+      internalID: 4278634107898098239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_131
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4c2a9ae7029950800000000000000
+      internalID: 6454229920165678723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea0de23b963b2140800000000000000
+      internalID: 4695907076666100455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a45668fab486060800000000000000
+      internalID: 6946885642465135112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee62c9fbd1c77d3f0800000000000000
+      internalID: -876095135289694482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_147
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd717facda4b10500800000000000000
+      internalID: 360768103693883356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_148
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a47ccceb7a56b10800000000000000
+      internalID: 1974168449593068032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_149
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b60c6431d918550800000000000000
+      internalID: 6161378471336504071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_150
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c53048d4c780500800000000000000
+      internalID: 362676442372463773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_151
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d868d430669ee8f90800000000000000
+      internalID: -6949360550634748275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_152
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512095b7514a3bc0800000000000000
+      internalID: -3802655090396880558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_153
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4bfd98fe3bceb80800000000000000
+      internalID: -8364112566542158665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_154
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa621031568e59410800000000000000
+      internalID: 1483347173096629935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_155
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620e80f8d5ea0dd70800000000000000
+      internalID: 9065937766751723558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_172
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085a7d8d9dedd7bf0800000000000000
+      internalID: -324858570873526912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_173
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19545e5ef96fec30800000000000000
+      internalID: 4390844702934718751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_174
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d8a5d86d3f05b0800000000000000
+      internalID: -5400029907723430240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_175
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba269260bcaeef2a0800000000000000
+      internalID: -6701661037778083157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_176
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416713f3b93b5f880800000000000000
+      internalID: -8577752435895732716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_177
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be7485bfb16fce90800000000000000
+      internalID: -7003271419525824843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4856e2d5b67a6b4d0800000000000000
+      internalID: -3119121612340828796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minotaur_alpha_179
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dc0eb230eb0a7a0800000000000000
+      internalID: -6367880952271549171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

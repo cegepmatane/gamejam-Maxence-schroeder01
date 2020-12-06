@@ -26,11 +26,6 @@ namespace Pathfinding {
 			// scripts as well. So it makes sense that it is up to date every frame.
 			if (ai != null) ai.onSearchPath += Update;
 		}
-
-		void OnDisable () {
-			if (ai != null) ai.onSearchPath -= Update;
-		}
-
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			if (target != null && ai != null) ai.destination = target.position;

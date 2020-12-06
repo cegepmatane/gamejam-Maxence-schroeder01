@@ -41,7 +41,9 @@ public class Player : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * speedmove * Time.fixedDeltaTime);
     }
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
     }
+    */
 }
