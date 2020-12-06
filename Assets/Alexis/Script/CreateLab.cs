@@ -19,6 +19,7 @@ public class CreateLab : MonoBehaviour
     private List<GameObject> JarList;
     public GameObject Coffre;
     public GameObject Minautaure;
+    public GameObject CoffreInstant;
     
     private bool[] AlwaysUse;
 
@@ -89,7 +90,7 @@ public class CreateLab : MonoBehaviour
                     if (t_NewTile.gameObject.layer == LayerMask.NameToLayer("EndCase"))
                     {
                         EndCase = t_NewTile;
-                        Instantiate(Coffre, t_NewTile.transform.position, Quaternion.identity);
+                       CoffreInstant = Instantiate(Coffre, t_NewTile.transform.position, Quaternion.identity);
                         Minautaure.transform.position = EndCase.transform.position;
                     }
                 }
@@ -113,6 +114,8 @@ public class CreateLab : MonoBehaviour
                 DestroyImmediate(jar.gameObject);
             }
         }
+        if (CoffreInstant != null)
+            Destroy(CoffreInstant.gameObject);
         
         AlwaysUse = new bool[16];
     }
