@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class BonusMalus : MonoBehaviour
 {
@@ -19,9 +20,9 @@ public class BonusMalus : MonoBehaviour
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Coffre"))
         {
-            Debug.Log("BOUM TA LE COFFRE BG");
             AnimCoffre.SetTrigger("IsTouched");
-            DestroyImmediate(collision.gameObject);
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("Victoire");
         }
     }
 
