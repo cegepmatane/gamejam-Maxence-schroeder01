@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2469558128382747314
+--- !u!1 &8419937613664870705
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2469558128382747277}
-  - component: {fileID: 2469558128382747276}
-  - component: {fileID: 2469558128382747315}
-  - component: {fileID: 2469558128382747278}
+  - component: {fileID: 8419937613664870670}
+  - component: {fileID: 8419937613664870671}
+  - component: {fileID: 8419937613664870704}
+  - component: {fileID: 8419937613664870669}
   m_Layer: 0
   m_Name: labyrinthe
   m_TagString: Untagged
@@ -19,27 +19,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2469558128382747277
+--- !u!4 &8419937613664870670
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2469558128382747314}
+  m_GameObject: {fileID: 8419937613664870705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.888, y: -5.01, z: -448.16132}
+  m_LocalPosition: {x: -19.53, y: -3.27, z: -448.16132}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2469558128382747276
+--- !u!114 &8419937613664870671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2469558128382747314}
+  m_GameObject: {fileID: 8419937613664870705}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bd49e730b7bb544fbf5937f2d1c0e5f, type: 3}
@@ -52,13 +52,13 @@ MonoBehaviour:
   ShowGrid: 1
   AvailableFiles: []
   SelectedTileID: 0
---- !u!114 &2469558128382747315
+--- !u!114 &8419937613664870704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2469558128382747314}
+  m_GameObject: {fileID: 8419937613664870705}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff5a7201cfcd99842a0ae9e62726577a, type: 3}
@@ -84,16 +84,17 @@ MonoBehaviour:
   EndCase: {fileID: 0}
   StartCase: {fileID: 0}
   PathFinder: {fileID: 0}
-  Player: {fileID: 2383497247029027476, guid: f44c6eef72277bf4cbb7b0a82e929647, type: 3}
+  Player: {fileID: 3801512624264443778, guid: f44c6eef72277bf4cbb7b0a82e929647, type: 3}
   Mur: {fileID: -4723413270031651283, guid: 2b53901f45b831749a6a3fd4721b4f2e, type: 3}
   Jar: {fileID: 7035205709005174508, guid: ea09cc069405fed408b3412adc8d8053, type: 3}
---- !u!114 &2469558128382747278
+  Coffre: {fileID: 4301565271667533558, guid: b4a65a6454d0ee444a4270d21e5c861a, type: 3}
+--- !u!114 &8419937613664870669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2469558128382747314}
+  m_GameObject: {fileID: 8419937613664870705}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26e1df38aea8e184794fb6e1f79b80be, type: 3}

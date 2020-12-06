@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1877109992230971574}
   - component: {fileID: -4723413270031651283}
   - component: {fileID: 4656334433977763042}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.3203203, y: 0.3203203}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

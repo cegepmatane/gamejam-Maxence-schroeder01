@@ -21,8 +21,7 @@ public class BonusMalus : MonoBehaviour
         {
             Debug.Log("BOUM TA LE COFFRE BG");
             AnimCoffre.SetTrigger("IsTouched");
-            GameObject t_Coffre = collision.gameObject;
-            StartCoroutine(AnimationCoffre(t_Coffre));
+            DestroyImmediate(collision.gameObject);
         }
     }
 
@@ -46,12 +45,6 @@ public class BonusMalus : MonoBehaviour
                 StartCoroutine(UnSpeed());
                 break;
         }
-    }
-
-    private IEnumerator AnimationCoffre(GameObject Coffre)
-    {
-        yield return new WaitForSeconds(1);
-        DestroyImmediate(Coffre);
     }
 
     private IEnumerator Speed()
