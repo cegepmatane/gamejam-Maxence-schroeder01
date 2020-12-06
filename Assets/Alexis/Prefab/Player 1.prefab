@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 7463306530429086383}
   - component: {fileID: 4979625356684839392}
   - component: {fileID: 6186115125058769387}
-  - component: {fileID: 202813713079980879}
   - component: {fileID: 2161218053793392734}
   - component: {fileID: 6083955251916898401}
+  - component: {fileID: 8855684927834438773}
+  - component: {fileID: 8855684927834438772}
+  - component: {fileID: 8855684927834438780}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -146,32 +148,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &202813713079980879
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706271402648654320}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0012996644, y: -0.00026080012}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.2}
-    newSize: {x: 0.15, y: 0.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.12921047, y: 0.19584037}
-  m_EdgeRadius: 0
 --- !u!82 &2161218053793392734
 AudioSource:
   m_ObjectHideFlags: 0
@@ -282,6 +258,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 4979625356684839392}
   AnimCoffre: {fileID: 239611155658754353, guid: b4a65a6454d0ee444a4270d21e5c861a, type: 3}
+  Minautaure: {fileID: 0}
+  TpMino: {fileID: 0}
+  Vie: 3
+--- !u!58 &8855684927834438773
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706271402648654320}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0027737692, y: -0.014423639}
+  serializedVersion: 2
+  m_Radius: 0.08058363
+--- !u!114 &8855684927834438772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706271402648654320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f8b8df63d28df4caedcc09ea37d577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MessageAfficher: {fileID: 0}
+--- !u!114 &8855684927834438780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706271402648654320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9014001497f6046b66435c0efb14e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vie: {fileID: 0}
 --- !u!1 &1398837290783462678
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,8 +499,8 @@ Camera:
   m_GameObject: {fileID: 8298050111468728902}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

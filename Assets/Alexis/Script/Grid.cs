@@ -12,10 +12,9 @@ public class Grid : MonoBehaviour
 
     private Tile[,] m_Tiles;
 
+#if UNITY_EDITOR
     [Space]
     [Header("Grid Editor")]
-
-#if UNITY_EDITOR
     public GameObject[] AvailableFiles;
     public int SelectedTileID;
 #endif
