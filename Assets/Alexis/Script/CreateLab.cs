@@ -69,12 +69,12 @@ public class CreateLab : MonoBehaviour
 
                    
                     t_NewTile.transform.parent = transform;
-                    //if (t_Tuile.BaseCost == 1)
-                    //{
-                    //    int JarChance = Random.Range(0, 20);
-                    //    if (JarChance == 5)
-                    //        Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity);
-                    //}
+                    if (t_Tuile.BaseCost == 1)
+                    {
+                        int JarChance = Random.Range(0, 150);
+                        if (JarChance == 27)
+                            Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity);
+                    }
                     if (t_Tuile.gameObject.layer == LayerMask.NameToLayer("StartCase"))
                     {
                         StartCase = t_NewTile;

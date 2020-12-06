@@ -84,6 +84,9 @@ MonoBehaviour:
   EndCase: {fileID: 0}
   StartCase: {fileID: 0}
   PathFinder: {fileID: 0}
+  Player: {fileID: 2383497247029027476, guid: f44c6eef72277bf4cbb7b0a82e929647, type: 3}
+  Mur: {fileID: -4723413270031651283, guid: 2b53901f45b831749a6a3fd4721b4f2e, type: 3}
+  Jar: {fileID: 7035205709005174508, guid: ea09cc069405fed408b3412adc8d8053, type: 3}
 --- !u!114 &2469558128382747278
 MonoBehaviour:
   m_ObjectHideFlags: 0

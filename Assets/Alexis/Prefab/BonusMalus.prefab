@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2821376584684785279}
   - component: {fileID: 5626745307688391312}
   - component: {fileID: 4418619362016717158}
-  - component: {fileID: 7859060760461113628}
   m_Layer: 10
   m_Name: BonusMalus
   m_TagString: Untagged
@@ -110,16 +109,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12829557, y: 0.16270068}
   m_EdgeRadius: 0
---- !u!114 &7859060760461113628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7035205709005174508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f515b37ca6c273942965df8dd159f78a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 5028795691420840871, guid: f44c6eef72277bf4cbb7b0a82e929647, type: 3}
