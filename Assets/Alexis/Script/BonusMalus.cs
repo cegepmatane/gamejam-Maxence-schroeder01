@@ -109,7 +109,7 @@ public class BonusMalus : MonoBehaviour
         Player.speedmove = 4.5f;
         Player.GetComponent<Message>().SetMessage("Bonus : Vitesse augmenter\nVous avez trouvez " + NbPot + " pot sur 4");
         yield return new WaitForSeconds(7);
-        Player.speedmove = 3f;
+        Player.speedmove = 2f;
     }
 
     private IEnumerator Flash()
@@ -135,7 +135,7 @@ public class BonusMalus : MonoBehaviour
         Player.speedmove = 1;
         Player.GetComponent<Message>().SetMessage("Malus : Ralentissement\nVous avez trouvez " + NbPot + " pot sur 4");
         yield return new WaitForSeconds(10);
-        Player.speedmove = 3f;
+        Player.speedmove = 2f;
     }
 
 
