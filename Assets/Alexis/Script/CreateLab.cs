@@ -73,7 +73,7 @@ public class CreateLab : MonoBehaviour
                     t_NewTile.transform.parent = transform;
                     if (t_NewTile.BaseCost == 1)
                     {
-                        int JarChance = Random.Range(0, 100);
+                        int JarChance = Random.Range(0, 85);
                         if (JarChance == 27)
                             JarList.Add(Instantiate(Jar, t_NewTile.transform.position, Quaternion.identity));
                     }
