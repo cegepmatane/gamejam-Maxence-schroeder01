@@ -6,24 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/MenuPrincipal.unity
-    guid: a5a61ab34b5655649a3cd52ffdb5f784
+    path: Assets/Game/Scenes/Menu/Scene/MenuPrincipal.unity
+    guid: 8bd9ad761a8de0a4a963644787b44f88
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Game/Scenes/Game.unity
     guid: 37f69fa594972ae4981431acfa0df66a
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/Credit.unity
+    path: Assets/Game/Scenes/Menu/Scene/Credit.unity
     guid: 0fa0e5078b6a7464bb351f2c6bfe35cd
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/GameOver.unity
+    path: Assets/Game/Scenes/Menu/Scene/GameOver.unity
     guid: c1381e9e1cb8c2443b0d30df0009a280
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/Options.unity
+    path: Assets/Game/Scenes/Menu/Scene/Options.unity
     guid: 314fe68f1a26c7e4c8ee019636f19388
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/Victoire.unity
+    path: Assets/Game/Scenes/Menu/Scene/Victoire.unity
     guid: 92ab5f30ee06d0b489292b6d9af43dc6
   - enabled: 1
-    path: Assets/Scenes/Menu/Scene/Regle.unity
-    guid: 22f6c59a0e6430c4d9f3e4e410c2dda2
+    path: Assets/Game/Scenes/Menu/Scene/Regle.unity
+    guid: eee883221c46f0d48976ea096ea907f0
   m_configObjects: {}

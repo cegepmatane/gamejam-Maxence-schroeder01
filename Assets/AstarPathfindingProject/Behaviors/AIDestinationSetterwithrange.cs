@@ -11,6 +11,9 @@ namespace Pathfinding {
 	///
 	/// [Open online documentation to see images]
 	/// </summary>
+	// Edited by Maxence Schroeder
+	//06/12/2020
+	//GameJam 2020
 	[UniqueComponent(tag = "ai.destination")]
 	[HelpURL("http://arongranberg.com/astar/docs/class_pathfinding_1_1_a_i_destination_setter.php")]
 	public class AIDestinationSetterwithrange : VersionedMonoBehaviour {
