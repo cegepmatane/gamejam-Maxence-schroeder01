@@ -65,7 +65,7 @@ public class BonusMalus : MonoBehaviour
 
     private void RandomBonusMalus()
     {
-        int RandomNumber = Random.Range(0,6);
+        int RandomNumber = Random.Range(0,5);
 
         switch (RandomNumber)
         {
@@ -85,17 +85,7 @@ public class BonusMalus : MonoBehaviour
             case 4:
                 TpDebut();
                 break;
-            case 5:
-                addVie();
-                break;
         }
-    }
-
-    private void addVie()
-    {
-        Player.GetComponent<Message>().SetMessage("Bonus : Vous avez gagné une vie supplesmentaire\nVous avez trouvez " + NbPot + " pot sur 4");
-        Vie++;
-        Player.GetComponent<AfficherVie>().SetVie(Vie);
     }
 
     private void TpDebut()
