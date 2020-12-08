@@ -11,15 +11,18 @@ public class MinotaurAI : MonoBehaviour
     public Animator anim;
     AudioSource audiol;
     public AudioClip impact;
+
+    private float TimeCri = 10f, LastTimeCri;
     void Start()
     {
         audiol = GetComponent<AudioSource>();
     }
     void Update()
     {
-        if (anim.GetBool("attack") == true)
+        if (anim.GetBool("attack") == true && TimeCri + LastTimeCri < Time.time)
         {
             audiol.PlayOneShot(impact);
+            LastTimeCri = Time.time;
         }
         if (anim.GetBool("attack") == false)
         {
